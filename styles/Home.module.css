@@ -1,0 +1,360 @@
+.root {
+  --bg-color: #000000;
+  --font-color-white: #ffffff;
+  --font-color-red: #C53044;
+  --btn-bg-color: #ffffff;
+  --btn-hover: #000000; 
+  --accent-color: #ee0000;
+  --header-shadow: #C53044 0px 0px 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.main {
+  min-height: 75vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.connect {
+  margin-bottom: 2rem;
+  width: 230px;
+}
+
+.description {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  font-family: VT323;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 960px;
+}
+
+.card {
+  background-color: #1b2129;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 350px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  background-color: #272c34;
+  color: #0ea5e9;
+  border-color: #0ea5e9;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+.card,
+.footer {
+  border-color: #222;
+}
+
+.code {
+  background: #111;
+}
+
+.logo img {
+  filter: invert(1);
+}
+
+.NFTCard {
+  background-color: #1b2129;
+  color: #fff;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  max-width: 32%;
+  margin: 0.5%;
+}
+
+.navbar {
+  background: none;
+  color: #C53044;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navLinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: VT323;
+  font-weight: bold;
+  font-style: regular;
+  font-size: 1.2rem;
+  background-color: #C53044;
+  color: #ffffff;
+  border-radius: 24px;
+  height: 48px;
+  transition: all 0.7s ease-in-out;
+  padding: 1rem 1rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.navLinks a:hover {
+  background-color: #ffffff;
+  color: #C53044;
+}
+
+.redlogo {
+  border-radius: 24px !important;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) !important;
+  height: 48px !important;
+  position: relative !important;
+  text-align: center !important;
+}
+
+.heroSection {
+  background-color: #ffffff;
+  color: #C53044;
+  padding: .5rem 1.35rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  max-width: 900px;
+  border-color: transparent;
+  line-height: 14.5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-top: -2rem;
+}
+
+.collectionImage {
+  overflow: visible;
+  margin-right: 1.35rem;
+  border-radius: 24px;
+  clip-path: inset(0 0 0 0 round 20px);
+  height: 225px;
+  width: 225px;
+}
+
+.claimContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.claimValue {
+  font-size: 0rem;
+  align-items: center;
+}
+
+.claimInput {
+  border: none;
+  background-color: #e7e7e7;
+  border-radius: 4px;
+  color: #C53044;
+  cursor: pointer;
+  font-family: VT323;
+  font-size: 1.2rem;
+  font-style: regular;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  height: 48px;
+  margin: 0px 0.25rem;
+  width: 15%;
+}
+
+.claimBtn {
+  border: none;
+  background-color: #C53044;
+  border-radius: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: VT323;
+  font-size: 1.2rem;
+  font-style: regular;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+}
+
+.claimBtn:hover {
+  background-color: #ffffff !important;
+  color: #C53044 !important;
+}
+
+.Web3Button {
+  background-color: #C53044 !important;
+  border-radius: 24px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-family: VT323 !important;
+  font-size: 1.2rem !important;
+  font-style: regular !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  height: 48px !important;
+  position: relative !important;
+  text-align: center !important;
+  margin-left: 2rem !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.Web3Button:hover {
+  background-color: #ffffff !important;
+  color: #C53044 !important;
+}
+
+.connectButton {
+  background-color: #C53044 !important;
+  border-radius: 24px !important;
+  color: #ffffff !important;
+  cursor: pointer !important;
+  font-size: 1.2rem !important;
+  font-style: regular !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  height: 48px !important;
+  position: relative !important;
+  text-align: center !important;
+  transition: all 0.5s ease-in-out !important;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.connectButton:hover {
+  background-color: #ffffff !important;
+  color: #C53044 !important;
+}
+
+.connectWallet {
+  align-items: end;
+}
+
+/* footer section */
+
+.h2 {
+  font-family: VT323;
+  font-weight: bold;
+  font-style: regular;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1px;
+}
+
+.footercontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.icon a {
+  display: inline-flex;
+  color: #C53044;
+  background-color: #ffffff;
+  width: 48px;
+  height: 48px;
+  border-radius: 40px;
+  justify-content: space-between;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 1rem;
+}
+
+.icon a:hover {
+  color: #ffffff;
+  background-color: #C53044;
+  width: 65px;
+  transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .heroSection {
+    flex-direction: column;
+    margin-bottom: -4.25rem;
+    margin-top: -4rem;
+  }
+
+  .navbar{
+   margin-left: -1rem;
+   margin-right: -1rem;
+  }
+
+}
