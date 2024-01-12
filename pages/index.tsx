@@ -132,7 +132,7 @@ const Home: NextPage = () => {
                             contractAddress={CONTRACT_ADDRESS}
                             action={(contract) =>  contract.erc721.claim(claimQuantity)}
                             onSuccess={() => router.push(`/profile/${address}`)}
-                          >CLAIM RED</Web3Button>
+                          >CLAIM</Web3Button>
                         </div>
                       </div>
                     </div>
