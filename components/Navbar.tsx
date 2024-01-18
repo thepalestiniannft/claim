@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className={styles.container}>
             <div className={styles.navbar}>
                 <div className={styles.redlogo}>
-                    <a href="https://thepalestiniannft.github.io/home/">
+                    <a href="https://thepalestinians.morrlabs.xyz">
                         <Image
                             src={logo}
                             alt="logo"
